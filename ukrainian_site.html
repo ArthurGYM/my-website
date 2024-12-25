@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мій сайт</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+        }
+        header {
+            background: #007BFF;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            background: #0056b3;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        footer {
+            background: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .card {
+            background: white;
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 500px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ласкаво просимо на мій сайт</h1>
+    </header>
+    <nav>
+        <a href="#about">Про нас</a>
+        <a href="#services">Послуги</a>
+        <a href="#contact">Контакти</a>
+    </nav>
+    <main>
+        <section id="about" class="card">
+            <h2>Про нас</h2>
+            <p>Ми створюємо сучасні веб-рішення, які допоможуть вашому бізнесу виділитися.</p>
+        </section>
+        <section id="services" class="card">
+            <h2>Наші послуги</h2>
+            <ul style="list-style: none; padding: 0;">
+                <li>⚙ Розробка сайтів</li>
+                <li>🌐 SEO-оптимізація</li>
+                <li>📊 Аналітика</li>
+            </ul>
+        </section>
+        <section id="contact" class="card">
+            <h2>Контакти</h2>
+            <p>Напишіть нам: <a href="mailto:example@example.com">example@example.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Мій сайт. Усі права захищено.</p>
+    </footer>
+</body>
+</html>
